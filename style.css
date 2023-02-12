@@ -31,12 +31,12 @@ body {
   padding: 0;
   margin: 0;
   font-family: var(--Outfit);
-  background-color: var(--Grayish-blue);
+  background-color: var(--Light-gray);
   font-size: var(--font-size);
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
+  height: 100vh;
 }
 
 h1,
@@ -48,36 +48,51 @@ p {
 
 .main-container {
   background-color: var(--White);
-  height: 60vh;
+  max-height: 80vh;
   flex-basis: 90%;
   border-radius: 20px;
-  padding: 2rem;
 }
 
 .qr-container {
-  border: 1px solid red;
   height: 100%;
   display: flex;
   flex-flow: column;
+  padding: 3%;
 }
 
 .qr-image-container {
-  border: 1px red solid;
-  height: 60%;
-  /* width: 100%; */
-  /* flex: 2 1 auto; */
+  height: 65%;
 }
 
-.qr-image {
-  border: 1px red solid;
-  background-image: url("/images/image-qr-code.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  /* background-position: top; */
-  height: 24rem;
+.qr-image-container img {
+  width: 100%;
+  height: 100%;
   border-radius: 10px;
-}
+} 
 
 .info {
-height: 40%;
+height: 35%;
+text-align: center;
+/* padding: 1.5rem 0; */
 }
+
+.info h1 {
+  font-size: calc(var(--font-size) + 0.5em);
+  color: var(--Dark-blue);
+  padding: 1em 0.5em;
+}
+
+.info p {
+  color: var(--Grayish-blue);
+  font-size:calc(var(--font-size) + 0.1em);
+  padding: 0 1em;
+  }
+
+
+
+  @media screen and (min-width: 40em) {
+    .main-container{
+      flex-basis: 20%;
+      height: 60%;
+    }
+  }
