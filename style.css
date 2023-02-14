@@ -48,7 +48,7 @@ p {
 
 .main-container {
   background-color: var(--White);
-  max-height: 80vh;
+  min-height: 34rem;
   flex-basis: 90%;
   border-radius: 20px;
 }
@@ -92,7 +92,14 @@ text-align: center;
 
   @media screen and (min-width: 40em) {
     .main-container{
-      flex-basis: 20%;
-      height: 60%;
+      flex-basis: 20rem;
+      /* min-height: 40%; */
+      min-height: 33rem;
     }
+
+    .info h1 {
+      font-size:calc(var(--font-size) + 0.4rem);
+      line-height: 1.5;
+    }
+    
   }
