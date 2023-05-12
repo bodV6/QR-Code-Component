@@ -20,9 +20,9 @@ QR Code Component is a Solution to a beginner project on FrontEnd MEntor using H
 
 ### Screenshot
 
-![](./screenshots/127%20-%20Generic%20Laptop%20-%202023-14-2%20at%206.36.15%20PM.jpg)
-![](./screenshots/127%20-%20iPad%20-%202023-14-2%20at%206.36.13%20PM.jpg)
-![](./screenshots/127%20-%20iPhone%20X%20-%202023-14-2%20at%206.36.09%20PM.jpg)
+![](./screenshots/Localhost%20-%20Generic%20Laptop%20-%202023-12-5%20at%2010.04.10%20PM.jpg)
+![](./screenshots/Localhost%20-%20iPad%20-%202023-12-5%20at%2010.04.09%20PM.jpg)
+![](./screenshots/Localhost%20-%20iPhone%20X%20-%202023-12-5%20at%2010.04.08%20PM.jpg)
 
 
 ### Links
